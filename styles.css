@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  height: 80px; 
+  width: 100%; 
+  padding: 15px;
+  margin: 0 10px;  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.header-icon {
+  height: 1.5rem; 
+  width: 1.5rem;
+  background-color: white;
+}
+
+h1 {
+  margin-top: 2px;
+  font-weight: bolder; 
+  font-size: 3rem;
+}
+
+.hero-container {
+  height: 300px; 
+}
+
+.hero {
+  width: 100%;
+  height: 365px; 
+}
+
+.info-container {
+  margin: 80px 0 20px 10px;
+}
+
+.shop-title {
+  padding: 8px; 
+}
+
+.product-container {
+  padding: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem; 
+  height: 625px; 
+}
+
+.product-card {
+  margin: 5px;
+  width: 480px;
+  background-color: white;
+  border: solid 1px #d8dde6;
+  display: flex;
+}
+
+.favorite-icon {
+  float: right;
+  width: 22px;
+  margin: 10px 15px 0 0;
+}
+
+.tee-description {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  font-weight: bolder;
+}
+
+.tee-image {
+  height: 100%; 
+  width: 250px; 
+}
+
+.tee-container {
+  width: 70%; 
+}
+
+.tee-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+  height: 150px; 
+}
+
+.sizes-container {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  margin-left: 2rem;
+}
+
+.price {
+  color: #f7acc6;
+  font-size: 1.5rem;
+}
+
+.border {
+  border: 1px solid #d8dde6;
+  border-radius: 48%;
+  height: 25px;
+  width: 32px;
+  text-align: center;
+  padding: 2px;
+}
+
+.size {
+  color: #d8dde6;
+  font-size: 1rem;
+}
+
+button {
+  height: 42px;
+  width: 160px;
+  border-radius: 4px;
+  background-color: #f7acc6;
+  color: white; 
+  margin: 1rem 1.5rem; 
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+}
